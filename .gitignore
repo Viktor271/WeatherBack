@@ -1,0 +1,34 @@
+# Laravel storage
+/storage/*.key
+/storage/*.pem
+/storage/*.pub
+/storage/*.key
+/storage/*.pub
+/storage/*.key.enc
+/storage/*.pub.enc
+/storage/*.conf
+/storage/*.env
+/storage/*.log
+/storage/*.sql
+/storage/*.sqlite
+
+# Dependencies
+/vendor
+
+# Environment variables
+.env
+.env.*
+
+# Logs and cache
+/logs
+/cache
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
